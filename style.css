@@ -825,6 +825,14 @@ h4 {
     background-image: url("img/image-de-presentation.png");
 }
 
+.white-band{
+    background-color:#cccccc;
+    font-size:1px;
+}
+
+.orange-band{
+    background-color:#F3976C;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
