@@ -91,20 +91,20 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>for="lastname">Nom</label>
-								<input id="name" class="form-control" required />
+								<label>for="lastname" class="visuallyhidden">Nom</label>
+								<input id="name" aria-label="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>for="emailadress">Adresse email</label>
-								<input id="email" class="form-control" type="email" required />
+								<label>for="emailadress" class="visuallyhidden">Adresse email</label>
+								<input id="email" aria-label="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>for="question">Comment nous avez-vous connu ?</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<label>for="question" class="visuallyhidden">Comment nous avez-vous connu ?</label>
+								<input class="form-control" aria-label="form-control" type="email" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>for="projectbriefing">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50"
+								<label>for="projectbriefing" class="visuallyhidden">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+								</label><textarea id="message" aria-label="Search" class="form-control" rows="4" cols="50"
 									required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
