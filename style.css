@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background: #ffffff;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -826,7 +826,7 @@ h4 {
 }
 
 .white-band{
-    background-color:#cccccc;
+    background-color:#FFFFFF;
     font-size:1px;
 }
 
