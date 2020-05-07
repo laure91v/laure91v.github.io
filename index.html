@@ -2,16 +2,30 @@
 <html lang="fr">
 
 <head>
+
 	<title>LA CHOUETTE agence - le meilleur du webdesign</title>
 
+	<!--Set the character encoding for this document-->
 	<meta charset="utf-8">
 	<meta name="keywords"
 		content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
-	<meta name="description"
+	
+	<!-- it could be used as a part of search engine results. -->
+		<meta name="description"
 		content="L'entreprise LA CHOUETTE agence, webdesigner basée à Lyon, vous propose son aide pour créer un site ou repenser le design de votre site.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	
+	<!-- Control the behavior of search engine crawling and indexing -->
 	<meta name="robots" content="index, follow">
 
+		<!-- twitter card -->
+	<meta name=twitter:card content=summary_large_image>
+<meta name=twitter:site content=@Lachouetteagence>
+<meta name=twitter:title content="La chouette agence Entreprise de webdesign à Lyon">
+<meta name=twitter:description content="Nous la chouette agence souhaitons aider les entreprises de Lyon à se développer et à connaître le succès avec notre web design. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients.">
+<meta name=twitter:image:src content="https://laure91v.github.io/projet4/img/logo.png">
+	
+	<!--small icon-->
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -43,7 +57,7 @@
 					<div class="navbar-header">
 						<div class="keywords white-band">Agence web à paris, stratégie web, web design, illustrations,
 							design de site web, site web, web, internet, site internet, site</div>
-						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
+						<a class="navbar-brand" title="rester sur la page d'accueil" href="index.html"><img src="img/la-chouette-agence.png"
 								alt="paris web design logo agence web meilleure agence" height="40" /></a>
 						<div class="keywords white-band">Agence web à paris, stratégie web, web design, illustrations,
 							design de site web, site web, web, internet, site internet, site</div>
@@ -56,12 +70,12 @@
 					<nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
-								<a href="#">Accueil</a>
+								<button class="button" title="page d'accueil" name="accueil" type="button" autofocus="autofocus" href="#">Accueil</button>
 							</li>
 							<li>
 							</li>
 							<li>
-								<a href="page2.html">page2</a>
+								<button class="button" title=" aller vers la page contact" name="contact" type="button" autofocus="autofocus" href="chouette-agence-contact.html">contact</button>
 							</li>
 						</ul>
 					</nav>
@@ -82,7 +96,7 @@
 							La chouette agence.
 						</h1>
 						<h2 class="text-center">
-							<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
+							<a href="chouette-agence-contact.html.html" title="contacter nous" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
 								id="cta-hero">Contact</a>
 						</h2>
 					</div>
@@ -94,10 +108,11 @@
 		<!-- bloc-2-services -->
 		<section class="bloc bgc-white l-bloc" id="bloc-2-services">
 			<div class="container bloc-md">
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
-					</div>
+				<div class="paragraph-title">
+					<p class="text-title">
+						La chouette agence est une agence web design qui aide <br>
+						les entreprises à devenir attractives et visibles sur internet
+					</p>
 				</div>
 				<div class="row voffset-lg med-width-whitespace">
 					<div class="col-sm-4">
@@ -137,11 +152,16 @@
 						</p>
 					</div>
 				</div>
-				<div class="row voffset-lg voffset">
-					<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-						<img alt="agence web design paris example working" src="img/citation.png" />
-
-					</div>
+				<div class="paragraph-citation">
+					<p class="text-citation">
+						"la chouette agence est une excellente agence web! Les<br>
+						web designers ont reussi à capturer l'essence de notre<br>
+						entreprise et à l'intégrer à notre site. Cela nous a aidé à<br>
+						doubler nos ventes en ligne à Lyon."
+					</p>
+					<p class="signature-citation">
+						Maxime Guillard, PDG de à vos fourchettes
+					</p>
 				</div>
 			</div>
 		</section>
@@ -165,7 +185,7 @@
 							ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à
 							nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés,
 							qui seront facilement trouvable sur les moteurs de recherche. <br><br><a
-								class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+								class="ltc-white bold-link" title="contacter nous" href="chouette-agence-contact.html.html">Contactez notre équipe</a><br>
 						</p>
 					</div>
 				</div>
@@ -177,8 +197,10 @@
 		<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 			<div class="container bloc-lg">
 				<div class="row">
-					<div class="col-sm-12 text-center">
-						<img alt="agence web citation" src="img/title2.png" />
+					<div class="paragraph-title2">
+						<p class="text-title2">
+							Nous travaillons avec beaucoup de clients,<br>
+							voici nos réalisations.
 					</div>
 				</div>
 				<div class="row tight-width-whitespace portfolio-row">
@@ -248,7 +270,7 @@
 						Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 					</h2>
 					<div class="col-sm-12 text-center">
-						<a href="page2.html"
+						<a href="chouette-agence-contact.html.html" title="contacter nous" 
 							class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 					</div>
 				</div>
@@ -267,25 +289,25 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#" aria-label="twitter link"><span
+									<a class="social" href="#" title=twitter aria-label="twitter link"><span
 											class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#" aria-label="facebook link"><span
+									<a class="social" href="#" title="facebook" aria-label="facebook link"><span
 											class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#" aria-label="dribble link"><span
+									<a class="social" href="#" title="dribble" aria-label="dribble link"><span
 											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="#" aria-label="instagram link"><span
+									<a class="social" href="#" title="instagram" aria-label="instagram link"><span
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
