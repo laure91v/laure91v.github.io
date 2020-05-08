@@ -545,7 +545,7 @@ a[data-lightbox]:hover::before {
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
-    color: #FFF;
+    color: #FFfF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
@@ -771,15 +771,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F4A885;
+    background-color: #C84D14;
 }
 
 .tc-white {
-    color: #F4A885!important;
+    color: WHITE!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F4A885;
+    background: #C84D14;
     color: #FFFFFF!important;
 }
 
@@ -831,7 +831,7 @@ h4 {
 }
 
 .orange-band{
-    background-color:#F4A885;
+    background-color:#C84D14;
     font-size:0.1px;
 }
 
