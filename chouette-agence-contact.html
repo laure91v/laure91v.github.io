@@ -91,26 +91,26 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<form id="form_1">
-							<div class="form-group">
-								<label for="name">Nom</label>
-								<input id="name" aria-labellby="nom" class="form-control" required />
+							<h2 class="form-group">
+								<label id="labelinputname">Nom</label>
+								<input id="name" aria-labelledby="labelinputname" class="form-control" required />
 
-							</div>
-							<div class="form-group">
-								<label for="email">Adresse email</label>
-								<input aria-labellby="adresse email" id="email" class="form-control" type="email" required />
+							</h2>
+							<h2 class="form-group">
+								<label id="adresseemail" for="email">Adresse email</label>
+								<input aria-labelledby="adresseemail" id="email" class="form-control" type="email" required />
 
-							</div>
-							<div class="form-group">
-								<label for="input_504">Comment nous avez-vous connu ?</label>
-								<input aria-labelledby="comment nous avez vous connu" class="form-control" id="input_504" type="email" required/>
-							</div>
-							<div class="form-group">
-								<label for="message" aria-labelledby="donnez nous le detail de votre projet">Brief de votre projet (Ajoutez autant de détails que
+							</h2>
+							<h2 class="form-group">
+								<label id="labelinputmail" for="input_504">Comment nous avez-vous connu ?</label>
+								<input aria-labelledby="labelinputmail" class="form-control" id="input_504" type="email" required/>
+							</h2>
+							<h2 id="labelinputbrief" class="form-group">
+								<label for="message" aria-labelledby="labelinputbrief">Brief de votre projet (Ajoutez autant de détails que
 									nécessaire)<br>
 								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 									
-							</div>
+							</h2>
 							<button title="cliquer pour envoyer" aria-label="bouton pour envoyer le formulaie"
 								class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">Envoyer</button>
